@@ -1,0 +1,32 @@
+@keyframes Border{
+   from{
+       border-radius: 40% 60% 44% 56% / 58% 30% 70% 42% ;
+   }
+   to{
+       border-radius:66% 34% 53% 47% / 45% 52% 48% 55%  ;
+   }
+}
+
+
+@keyframes Heading{
+   to{
+           transform: translateY(0);
+       
+       }
+}
+
+
+  @keyframes float {
+            0% {
+                transform: translateY(0);
+                
+            }
+     
+            50% {
+                transform: translateY(-12px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
